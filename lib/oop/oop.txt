@@ -1,0 +1,28 @@
+OOP 
+adalah metode pemograman yang menggunakan Object dan Interaksinya
+untuk merancang dan membuat aplikasi .
+
+Keuntungan dari OOP antara lain 
+- mudah dimengerti dan digunakan
+- meningkatkan daya guna ulang dan
+- mengurangi kompleksitas, 
+- meningkatkan produktivitas programmer, 
+- membuat kode lebih
+- mudah dipelihara, dimodifikasi, dan didebug, serta
+- mendorong kerjasama dan kolaborasi
+
+Fitur-fitur OOP antara lain 
+class, object, enkapsulasi, pewarisan(inheritance), polimorfisme, dan abstraksi.
+
+OOP bertujuan untuk memecahkan masalah yang
+kompleks menjadi Object yang lebih kecil
+
+
+Sintaks dasar class dalam Dart dimulai dengan kata kunci
+"class" diikuti dengan nama class. 
+Struktur class dalam Dart terdiri dari bagian header, body, dan constructor.
+
+Header class berisi nama class dan deklarasi pewarisan
+(inheritance), 
+Body class berisi properti dan method yang didefinisikan untuk class tersebut.
+Constructor adalah method khusus yang digunakan untuk membuat Object class tersebut
