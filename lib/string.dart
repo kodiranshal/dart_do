@@ -1,4 +1,4 @@
-void main () {
-  String data = "Hello Irvan";
+void main() {
+  String data = "Hello Irvooan";
   print(data);
 }
