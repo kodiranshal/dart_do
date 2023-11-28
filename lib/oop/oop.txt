@@ -21,6 +21,18 @@ kode berikut membuat Object class Orang dan mengatur nilai awal
 untuk properti
 nama dan umur.
 
+Constant Constructor adalah Constructor yang menciptakan Object konstan. Object
+konstan adalah Object yang nilai tidak dapat diubah. Constant Constructor
+dideklarasikan dengan menggunakan kata kunci const.
+Info
+Catatan: Constant Constructor digunakan untuk membuat Object yang nilainya tidak
+dapat diubah. Ini meningkatkan kinerja program.
+Aturan untuk Mendeklarasikan Constant Constructor dalam Dart:
+● Semua properti class harus final.
+● Tidak memiliki badan.
+● Hanya class yang mengandung Constructor const diinisialisasi menggunakan
+kata kunci const.
+
 Tanpa Constructor
 Jika Anda tidak mendefinisikan Constructor untuk class, 
 maka Anda perlu mengatur nilai properti secara
