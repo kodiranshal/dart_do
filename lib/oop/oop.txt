@@ -1,3 +1,54 @@
+Stateless widget 
+state adalah data atau informasi yang digunakan aplikasi atau widget dalam aplikasi kita 
+
+State sendiri terbagi menjadi 2, yaitu 
+app state dan local state. 
+Stateless dan stateful ini masuk ke dalam local state.
+
+Untuk stateful dia adalah widget yang memiliki state didalamnya. 
+Sehingga class yang meng extends class statefulwidget, 
+akan dapat memiliki internal state nya sendiri, 
+hal ini dapat menguntungkan karena render UI nya tidak hanya bergantung dari inputan dari widget
+lain, namun dengan memanggil setState maka widget
+build akan rerun ulang dengan state yang baru tanpa
+harus menunggu perubahan di widget tree atas nya. 
+
+Constructor adalah method khusus yang digunakan untuk menginisialisasi Object. 
+Constructor dipanggil secara otomatis saat Object dibuat dan dapat digunakan 
+untuk mengatur nilai awal properti Object.
+Sebagai contoh, 
+kode berikut membuat Object class Orang dan mengatur nilai awal 
+untuk properti
+nama dan umur.
+
+Tanpa Constructor
+Jika Anda tidak mendefinisikan Constructor untuk class, 
+maka Anda perlu mengatur nilai properti secara
+manual. Sebagai contoh, kode berikut
+membuat Object class Orang dan
+mengatur nilai untuk properti nama
+dan umur.
+
+Default Constructor adalah Constructor yang dibuat secara otomatis oleh kompiler
+Dart jika Anda tidak membuat Constructor. 
+Default Constructor tidak memiliki
+parameter. Default Constructor dideklarasikan dengan menggunakan nama 
+class diikuti dengan tanda kurung ().
+
+Parameterized Constructor digunakan untuk menginisialisasi variabel instan
+dari class. 
+Parameterized Constructor adalah Constructor yang menggunakan parameter. 
+Constructor ini digunakan untuk mengirimkan nilai ke Constructor
+pada saat pembuatan Object.
+
+Named constructor
+Dalam kebanyakan bahasa pemrograman seperti Java, C++, C#, dll., kita bisa
+membuat beberapa Constructor dengan nama yang sama. Namun dalam Dart, hal
+ini tidak mungkin. Tetapi ada cara lain, kita bisa membuat beberapa Constructor
+dengan nama yang sama menggunakan Named Constructor.
+Catatan: Named Constructor meningkatkan keterbacaan kode. Ini berguna ketika
+Anda ingin membuat beberapa Constructor dengan nama yang sama.
+
 OOP 
 adalah metode pemograman yang menggunakan Object dan Interaksinya
 untuk merancang dan membuat aplikasi .
@@ -26,3 +77,37 @@ Header class berisi nama class dan deklarasi pewarisan
 (inheritance), 
 Body class berisi properti dan method yang didefinisikan untuk class tersebut.
 Constructor adalah method khusus yang digunakan untuk membuat Object class tersebut
+
+
+contoh class 
+class Classname {
+
+}
+
+class mobil
+class Mobil {
+    String? merk;
+    String? model;
+    Int? tahun;
+
+    void klakson () {
+        print ("Beep! Beep!")
+    }
+}
+
+//membuat object dari class 
+Classname objek = ClassName()
+
+//class object mobil
+void main () {
+    Mobil mobil = Mobil();
+    mobil.merk = Mobil();
+    mobil.model = "toyota";
+    mobil.tahun = "2023;
+
+    print(mobil.merk);
+    print(mobil.model);
+    print(mobil.tahun);
+
+    mobil.klakson();
+}
